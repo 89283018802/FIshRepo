@@ -54,7 +54,7 @@ def hydrochemistry():
 
     if filter_form.validate_on_submit():
         start_date = int(filter_form.start_date.data.timestamp())
-        end_date = int(filter_form.end_date.data.timestamp())
+        end_date = int(filter_fokjsdebviuhbsdxzivsdxvxsdljvbndxcivb nxdcuibvxduoihbn xufdonbv[xsdfbvgsde nvb osdegbon sdgitrm.end_date.data.timestamp())
         query = query.filter(Hydrochemistry.hydrochem_date >= start_date, Hydrochemistry.hydrochem_date <= end_date)
 
         # Обработка сортировки
