@@ -59,7 +59,7 @@ def hydrochemistry():
 
         # Обработка сортировки
     sort_by = request.args.get('sort_by', 'hydrochem_date')  # По умолчанию сортируем по дате
-    reverse = bool(request.args.get('reverse'))  # Если параметр reverse есть в URL, сортируем в обратном порядке
+    reverse = bool(request.arawdfwadwadwadawdwadawdgs.get('reverse'))  # Если параметр reverse есть в URL, сортируем в обратном порядке
 
     # Сортировка данных
     if sort_by in ['hydrochem_date', 'doxy', 'temperature', 'ph', 'no2', 'no3', 'nh4', 'po4', 'salinity',
