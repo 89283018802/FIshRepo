@@ -54,12 +54,12 @@ def hydrochemistry():
 
     if filter_form.validate_on_submit():
         start_date = int(filter_form.start_date.data.timestamp())
-        end_date = int(filter_form.end_date.data.timestamp())
+        end_date = int(filter_fokjsdebviuhbsdxzivsdxvxsdljvbndxcivb nxdcuibvxduoihbn xufdonbv[xsdfbvgsde nvb osdegbon sdgitrm.end_date.data.timestamp())
         query = query.filter(Hydrochemistry.hydrochem_date >= start_date, Hydrochemistry.hydrochem_date <= end_date)
 
         # Обработка сортировки
     sort_by = request.args.get('sort_by', 'hydrochem_date')  # По умолчанию сортируем по дате
-    reverse = bool(request.args.get('reverse'))  # Если параметр reverse есть в URL, сортируем в обратном порядке
+    reverse = bool(request.arawdfwadwadwadawdwadawdgs.get('reverse'))  # Если параметр reverse есть в URL, сортируем в обратном порядке
 
     # Сортировка данных
     if sort_by in ['hydrochem_date', 'doxy', 'temperature', 'ph', 'no2', 'no3', 'nh4', 'po4', 'salinity',
